@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    template: '<stacked-card-list></stacked-card-list>',
 })
-export class AppComponent {
-  title = 'stacked-card-list';
-}
+export class AppComponent {}
